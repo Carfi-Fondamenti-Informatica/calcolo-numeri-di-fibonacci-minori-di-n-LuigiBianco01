@@ -2,11 +2,13 @@
 using namespace std;
 
 int main() {
-    int n=0, a=0, b=1, c= a+b;
+    int n=0;
     cin>>n;
 
+    int a=0, b=1, c=1;
+
     cout<< b <<endl;
-    for (int i=2; i<(n+1); i++) {
+    for (int i=0; i<=(n-1); i++) {
         if (c<=n) {
             cout << c <<endl;
             a= b;
